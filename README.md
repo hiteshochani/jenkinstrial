@@ -35,13 +35,15 @@ Create & activate a virtual environment in Anaconda:
 
 Download necessary models & repositories for running the app:
 ```console
-> python models/download_models.py   # Download the models to be used by the app)
+> python models/download_models.py   
 ```
 
 
 [comment]: <> (&#40;smartui&#41;> python models/download_models.py   # Download the models to be used by the app)
+
+Clone the tessdata/ for legacy OCR being used in the app
 ```console
-(smartui)> git clone https://github.com/tesseract-ocr/tessdata.git ./app/tessdata/   # Clone the tessdata/ for legacy OCR being used in the app
+(smartui)> git clone https://github.com/tesseract-ocr/tessdata.git ./app/tessdata/
 ```
 
 Start the app:
